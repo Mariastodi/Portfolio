@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de Maria Beatriz — desenvolvimento mobile, web e experiências digitais."
+    />
+    <meta name="theme-color" content="#050506" />
+    <title>Maria Beatriz — Software Developer</title>
+    <link rel="icon" type="image/png" href="coding.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Ir para o início"
+        >MB<span>.</span></a
+      >
+      <nav aria-label="Navegação principal">
+        <a href="#about">Sobre</a>
+        <a href="#projects">Projetos</a>
+        <a href="#experience">Experiência</a>
+        <a href="#contact">Contato</a>
+      </nav>
+      <a class="nav-cta" href="#contact">Vamos conversar <span>↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero reveal" id="home">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-composition">
+          <img
+            class="hero-avatar"
+            src="capa.png"
+            alt="Avatar de Maria Beatriz"
+          />
+          <h1>Maria Beatriz</h1>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-heading reveal">
+          <p class="kicker">01 — Sobre mim</p>
+          <h2>
+            Um pouco sobre quem<br /><span>está por trás do código.</span>
+          </h2>
+        </div>
+        <div class="terminal reveal" data-delay="100">
+          <div class="terminal-bar">
+            <div class="window-dots" aria-hidden="true">
+              <i></i><i></i><i></i>
+            </div>
+            <span>maria-beatriz — zsh</span>
+            <button
+              class="run-button"
+              id="run-terminal"
+              type="button"
+              aria-label="Executar apresentação"
+            >
+              <span>▶</span> Run
+            </button>
+          </div>
+          <div class="terminal-body">
+            <div class="code" aria-label="Código JavaScript de apresentação">
+              <p><b>const</b> developer = {</p>
+              <p class="indent">name: <em>"Maria Beatriz"</em>,</p>
+              <p class="indent">role: <em>"Software Developer"</em>,</p>
+              <p class="indent">
+                focus: [<em>"Mobile"</em>, <em>"Web"</em>, <em>"Cloud"</em>],
+              </p>
+              <p class="indent">
+                values: [<em>"curiosidade"</em>, <em>"qualidade"</em>,
+                <em>"impacto"</em>]
+              </p>
+              <p>};</p>
+              <p><b>console</b>.log(developer.introduce());</p>
+            </div>
+            <div
+              class="terminal-output"
+              id="terminal-output"
+              aria-live="polite"
+            >
+              <p class="terminal-hint">
+                Clique em <strong>Run</strong> para executar
+                <span class="blink">_</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="section-heading reveal">
+          <p class="kicker">02 — Projetos selecionados</p>
+          <h2>Coisas que saíram<br /><span>do papel.</span></h2>
+        </div>
+        <div class="projects-grid" id="github-projects">
+          <article class="project-card project-featured reveal">
+            <div class="project-top">
+              <span class="project-number">01</span
+              ><span class="project-type">Atendimento & gestão</span>
+            </div>
+            <div class="project-visual visual-mobile" aria-hidden="true">
+              <div class="phone">
+                <div class="phone-island"></div>
+                <div class="app-screen"><span></span><i></i><i></i><i></i></div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Helpdesk</h3>
+              <p>
+                Aplicativo mobile para abertura e acompanhamento de chamados.
+                Reúne autenticação e sessão local, filtros e indicadores de SLA,
+                controle das horas de suporte, anexos de fotos e documentos,
+                histórico de atendimento e cache local.
+              </p>
+              <p class="project-tech">
+                React Native · Expo · TypeScript · AsyncStorage
+              </p>
+              <a
+                class="project-link"
+                href="https://github.com/Mariastodi/helpdesk"
+                target="_blank"
+                rel="noreferrer"
+                >Ver projeto no GitHub <span>↗</span></a
+              >
+            </div>
+          </article>
+          <article class="project-card reveal" data-delay="100">
+            <div class="project-top">
+              <span class="project-number">02</span
+              ><span class="project-type">Conversão inteligente</span>
+            </div>
+            <div class="project-visual visual-cloud" aria-hidden="true">
+              <div class="orbit one"></div>
+              <div class="orbit two"></div>
+              <div class="cloud-core">☁</div>
+            </div>
+            <div class="project-content">
+              <h3>ConverteAí</h3>
+              <p>
+                Projeto social que transforma tampinhas, garrafas PET, latinhas
+                e lacres em renda para ações solidárias. A iniciativa conecta
+                pontos de coleta, parceiros e voluntários para apoiar famílias
+                com alimentos, higiene e roupas.
+              </p>
+              <p class="project-tech">
+                Impacto social · Reciclagem · Comunidade
+              </p>
+              <a
+                class="project-link"
+                href="https://github.com/Mariastodi/converteai"
+                target="_blank"
+                rel="noreferrer"
+                >Ver projeto no GitHub <span>↗</span></a
+              >
+            </div>
+          </article>
+          <article
+            class="project-card anticaloteiro-card reveal"
+            data-delay="160"
+          >
+            <div class="project-top">
+              <span class="project-number">03</span
+              ><span class="project-type">Proteção & confiança</span>
+            </div>
+            <div class="project-visual visual-shield" aria-hidden="true">
+              <div class="shield-mark">A</div>
+              <div class="shield-ring"></div>
+            </div>
+            <div class="project-content">
+              <h3>Anticaloteiro</h3>
+              <p>
+                Aplicativo criado para grupos de amigos registrarem despesas de
+                passeios, viagens e encontros. O app organiza quem pagou cada
+                item, calcula a divisão e mostra de forma simples quanto cada
+                pessoa precisa acertar.
+              </p>
+              <p class="project-tech">
+                Divisão de contas · Grupos · Organização
+              </p>
+              <a
+                class="project-link"
+                href="https://github.com/Mariastodi/anticaloteiro"
+                target="_blank"
+                rel="noreferrer"
+                >Ver projeto no GitHub <span>↗</span></a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section stack-section" id="stack">
+        <div class="section-heading reveal">
+          <p class="kicker">03 — Toolkit</p>
+          <h2>
+            As ferramentas que<br /><span>colocam tudo em movimento.</span>
+          </h2>
+        </div>
+        <div class="stack-bento">
+          <article class="stack-card mobile-card reveal">
+            <span class="stack-icon">⌁</span><small>Meu foco</small>
+            <h3>Mobile</h3>
+            <p>React Native · Expo · RealmDB</p>
+          </article>
+          <article class="stack-card reveal" data-delay="80">
+            <span class="stack-icon">TS</span><small>Linguagem</small>
+            <h3>TypeScript</h3>
+            <p>JavaScript · HTML · CSS</p>
+          </article>
+          <article class="stack-card reveal" data-delay="160">
+            <span class="stack-icon">◫</span><small>Backend</small>
+            <h3>Node.js</h3>
+            <p>REST APIs · Bancos de dados</p>
+          </article>
+          <article class="stack-card wide reveal">
+            <div>
+              <small>Cloud & workflow</small>
+              <h3>Construir. Testar. Evoluir.</h3>
+            </div>
+            <div class="stack-pills">
+              <span>AWS</span><span>Git</span><span>GitHub</span
+              ><span>Figma</span><span>Scrum</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section experience-section" id="experience">
+        <div class="section-heading reveal">
+          <p class="kicker">04 — Experiência</p>
+          <h2>Minha jornada até aqui.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2026 — agora</div>
+            <div class="timeline-dot"></div>
+            <div>
+              <p class="company">GPM Soluções</p>
+              <h3>Estagiária Mobile</h3>
+              <p>
+                Desenvolvimento de aplicações modernas, transformando
+                necessidades reais em experiências mobile claras e eficientes.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2025 — 2026</div>
+            <div class="timeline-dot"></div>
+            <div>
+              <p class="company">Infinity School</p>
+              <h3>Instrutora Master</h3>
+              <p>
+                Liderança técnica, apoio ao aprendizado e condução de workshops
+                de tecnologia.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">jan — set 2025</div>
+            <div class="timeline-dot"></div>
+            <div>
+              <p class="company">Infinity School</p>
+              <h3>Estagiária de Desenvolvimento</h3>
+              <p>
+                Início da carreira prática, unindo crescimento técnico,
+                colaboração e comunicação.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section reveal" id="contact">
+        <div class="contact-orb" aria-hidden="true"></div>
+        <img
+          class="contact-avatar"
+          src="final.png"
+          alt="Avatar de Maria Beatriz fazendo um coração com a mão"
+        />
+        <p class="kicker">05 — Contato</p>
+        <h2>Tem uma ideia legal?<br /><span>Vamos fazer acontecer.</span></h2>
+        <a
+          class="button light"
+          href="https://wa.me/5585981370578"
+          target="_blank"
+          rel="noreferrer"
+          >Vamos conversar <span>↗</span></a
+        >
+        <div class="social-links">
+          <a
+            href="https://linkedin.com/in/maria-beatriz-b800b8304"
+            target="_blank"
+            rel="noreferrer"
+            >LinkedIn ↗</a
+          >
+          <a
+            href="https://github.com/Mariastodi"
+            target="_blank"
+            rel="noreferrer"
+            >GitHub ↗</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Maria Beatriz</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
