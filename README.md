@@ -6,19 +6,20 @@ Portfólio pessoal desenvolvido como um projeto prático para explorar e testar 
 
 O projeto reúne elementos interativos e uma estrutura limpa para apresentar informações profissionais:
 
-* **Apresentação:** Identidade visual própria e avatar.
-* **Terminal Interativo:** Componente dinâmico para exibição de dados e trajetória.
-* **Projetos em Destaque:** Exibição dos projetos.
-* **Animações e Acessibilidade:** Movimentos suaves com suporte a `prefers-reduced-motion` e navegação por teclado.
+- **Apresentação:** Identidade visual própria e avatar.
+- **Terminal Interativo:** Componente dinâmico para exibição de dados e trajetória.
+- **Projetos em Destaque:** Exibição dos projetos.
+- **Comunidade e Voluntariado:** Galeria com experiências reais, fotografias e links para os relatos.
+- **Animações e Acessibilidade:** Movimentos suaves com suporte a `prefers-reduced-motion` e navegação por teclado.
 
 ---
 
 ## Tecnologias Utilizadas
 
-* **HTML5 Semântico:** Estruturação acessível com landmarks e navegação facilitada.
-* **CSS3 Moderno:** Layouts com Grid e Flexbox, Custom Properties e total responsividade.
-* **JavaScript Vanilla:** Script modular focado em interações e animações, sem bibliotecas externas.
-* **Tipografia:** Google Fonts.
+- **HTML5 Semântico:** Estruturação acessível com landmarks e navegação facilitada.
+- **CSS3 Moderno:** Layouts com Grid e Flexbox, Custom Properties e total responsividade.
+- **JavaScript Vanilla:** Script modular focado em interações e animações, sem bibliotecas externas.
+- **Tipografia:** Google Fonts.
 
 ---
 
@@ -31,7 +32,9 @@ O projeto reúne elementos interativos e uma estrutura limpa para apresentar inf
 ├── script.js       # Lógica das interações e terminal
 ├── capa.png        # Imagem de apresentação
 ├── final.png       # Imagem da seção de contato
-└── coding.png      # Ícone do site
+├── coding.png      # Ícone do site
+└── assets/
+    └── community/  # Fotografias dos eventos e voluntariados
 
 ```
 
