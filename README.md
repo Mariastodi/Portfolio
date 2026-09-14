@@ -47,3 +47,5 @@ IronID é apresentado na página inicial e em `projeto-ironid.html`, reutilizand
 O portfólio continua estático e pode manter a hospedagem atual. Não é necessário adicionar um servidor PHP para demonstrar um projeto desenvolvido em PHP.
 
 Repositório do projeto PHP: https://github.com/Mariastodi/IronId. A página `projeto-ironid.html` apresenta o projeto e aponta para esse código.
+
+A marca PHP usada no card foi obtida da página oficial de logos do PHP e é disponibilizada sob CC BY-SA 4.0: https://www.php.net/download-logos.php.
