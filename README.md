@@ -39,3 +39,11 @@ O projeto reúne elementos interativos e uma estrutura limpa para apresentar inf
 ```
 
 ---
+
+## Projeto PHP em destaque
+
+IronID é apresentado na página inicial e em `projeto-ironid.html`, reutilizando os estilos existentes. A apresentação destaca PHP, Laravel e APIs REST. Helpdesk e Anticaloteiro continuam nos projetos selecionados; ConverteAí pode ser consultado em https://github.com/Mariastodi/converteai.
+
+O portfólio continua estático e pode manter a hospedagem atual. Não é necessário adicionar um servidor PHP para demonstrar um projeto desenvolvido em PHP.
+
+Repositório do projeto PHP: https://github.com/Mariastodi/IronId. A página `projeto-ironid.html` apresenta o projeto e aponta para esse código.

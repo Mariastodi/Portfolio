@@ -9,7 +9,7 @@ const TERMINAL_LINES = [
   '<span class="prompt">$ node about-me.js</span>',
   '<span class="hello">Olá! Sou Maria Beatriz 👋</span>',
   "<span>Desenvolvedora de software e estudante de Engenharia de Software.</span>",
-  "<span>Crio produtos mobile e web com tecnologia, cuidado e propósito.</span>",
+  "<span>Trabalho com mobile e aprofundo PHP, Laravel e APIs REST no projeto IronID.</span>",
   '<span class="prompt">Process finished with exit code 0 ✓</span>',
 ];
 
